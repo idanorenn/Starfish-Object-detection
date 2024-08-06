@@ -1,0 +1,28 @@
+Great Barrier Reef – Action Items:
+
+Model Preparation (Before Testing and Results presentation):
+	Use Optuna for this (use code from tutorial 8)
+	It takes about 15 epochs to reach reasonable results (>0.9 mAP50) -> this is the number 
+of epochs per trial in Optuna.
+	We use for this tuning a parameter we call “fitness” which encapsulates 3 main metrics from the training process:
+fitness=0.2*recall+0.2*mAP50+0.4*mAP{0.5-0.95}
+Parameters to optimize:
+	Learning Rate: Range=[0.0001, 0.002]
+	Optimizer: AdamW, Adam, RMSprop
+	Weight decay
+	Momentum
+	HSV augmentations values
+
+	Compare final results with and without (still has flips) Augmentations
+How many epochs with augmentations do we need to arrive to same results as without? Do we need them?
+After model preparation:
+	Show hyperparameter tuning results:
+	Complete and pruned runs
+	Sensitivities to hyperparameters (what is most important)
+	Show Precision and Recall fail examples:
+	Precision: False positives (detections where they aren’t supposed to be)
+	Recall: False negatives (missed starfish)
+	Comparison with augmentations and without
+	Comparison with other YOLO users in Kaggle
+	Show results from Transformer RT-DETR (?)
+	Comparison

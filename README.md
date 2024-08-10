@@ -1,12 +1,17 @@
 <h1 align="center">
   <br>
-Protecting the Great Barrier Reef – Using YOLO to Detect Invasive Species![image](https://blogger.googleusercontent.com/img/a/AVvXsEj6-rQw5r22Bt47BUTtW5bn_dcWT7zMeADwtvsAHS3kBt6w8eWTmCM649ZcJcvosIMup6flKFIaI8p4M9ZzH1yXpEaMRjvwwfVZ_hMqgXCxtwNzEK25vTa-J2ly20by3M1zx7rTymo-tBI6Fq-mj1SJfCOXsOz0Ou1Esi4h2omvQSW98AjsONsVS-EA)
+Protecting the Great Barrier Reef – Using YOLO to Detect Invasive Species
+  
   <br>
 </h1>
 
+# Demonstration
+
+![image](https://github.com/user-attachments/assets/d15c05b0-28ff-4f2d-8587-a9ed5d072a35)
+
 <p align="center">This project will utilize real-time object detection models (YOLO) to detect invasive starfish species invading the Australian Great Barrier Reef. 
                   We will show hyperparameter tuning process using Optuna and the various functionalities provided by Ultralytics.
-                  As well as compare results between the YOLOv10 model and its predecessors, and between YOLOv10 model sizes![image](https://github.com/user-attachments/assets/44e29946-352f-44dc-ab5e-fa47d55206e9)
+                  As well as compare results between the YOLOv10 model and its predecessors, and between YOLOv10 model sizes!
 </p>
 
 ## Dataset

@@ -23,14 +23,14 @@ and for each image we have a text file consists the bounding box of the starfish
 
 ### Model
 
-We fine-tuned the pretrained model Yolov10, implemented by ultralytics
+We fine-tuned the pretrained model Yolov10, implemented by ultralytics. We used Optuna for finding the best hyper-parameters.
 [Yolov10](https://github.com/THU-MIG/yolov10)
 
 ### Results
 
 ![image](https://github.com/idanorenn/Starfish-Object-detection/blob/main/results/fitness%20vs%20epoch%20sizes.png)
 
-## Execute
+## installation
 
 To get started, you need to install the required libraries:
 
@@ -106,7 +106,10 @@ results = model.train(data='path/to/data.yaml',
 There are many optional arguments to pass in addition to the specified below, for more information visit ultralytics documnetation: [ultralytics](https://docs.ultralytics.com/modes/train/)
 ## Future Work
 
-TBD
+We can use SAHI. SAHI (Slicing Aided Hyper Inference) is an innovative library designed to optimize object detection algorithms for large-scale and high-resolution imagery. Its core functionality lies in partitioning images into manageable slices, running object detection on each slice, and then stitching the results back together. SAHI is compatible with a range of object detection models, including the YOLO series, thereby offering flexibility while ensuring optimized use of computational resources.
+
+<img src="https://raw.githubusercontent.com/obss/sahi/main/resources/sliced_inference.gif" alt="Description" style="width:300px;"/>
+# ![gif](https://raw.githubusercontent.com/obss/sahi/main/resources/sliced_inference.gif)
 
 ## Authors
 

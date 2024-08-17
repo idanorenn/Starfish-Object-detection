@@ -7,7 +7,7 @@ Protecting the Great Barrier Reef – Using YOLO to Detect Invasive Species
 
 # Demonstration
 
-![image](https://github.com/user-attachments/assets/d15c05b0-28ff-4f2d-8587-a9ed5d072a35)
+<img src="https://github.com/user-attachments/assets/d15c05b0-28ff-4f2d-8587-a9ed5d072a35" alt="Description" style="width:1200px;"/>
 
 <p align="center">This project will utilize real-time object detection models (YOLO) to detect invasive starfish species invading the Australian Great Barrier Reef. 
                   We will show hyperparameter tuning process using Optuna and the various functionalities provided by Ultralytics.
@@ -109,7 +109,7 @@ There are many optional arguments to pass in addition to the specified below, fo
 We can use SAHI. SAHI (Slicing Aided Hyper Inference) is an innovative library designed to optimize object detection algorithms for large-scale and high-resolution imagery. Its core functionality lies in partitioning images into manageable slices, running object detection on each slice, and then stitching the results back together. SAHI is compatible with a range of object detection models, including the YOLO series, thereby offering flexibility while ensuring optimized use of computational resources.
 
 <img src="https://raw.githubusercontent.com/obss/sahi/main/resources/sliced_inference.gif" alt="Description" style="width:300px;"/>
-# ![gif](https://raw.githubusercontent.com/obss/sahi/main/resources/sliced_inference.gif)
+
 
 ## Authors
 

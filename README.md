@@ -28,7 +28,7 @@ We fine-tuned the pretrained model Yolov10, implemented by ultralytics
 
 ### Results
 
-#TBD
+![image](https://github.com/idanorenn/Starfish-Object-detection/blob/main/results/fitness%20vs%20epoch%20sizes.png)
 
 ## Execute
 
